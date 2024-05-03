@@ -16,7 +16,7 @@ async function movie(url) {
 }
 
 function act() {
-    const mov = `http://www.omdbapi.com/?apikey=${apiKey}&s=${input.value}`;
+    const mov = `https://www.omdbapi.com/?apikey=${apiKey}&s=${input.value}`;
     movie(mov);
 }
 

@@ -1,6 +1,6 @@
 body{
     background: rgb(197, 192, 192);
-    display: flex;
+   
     justify-content: center;
     background-image: url('movie-background-collage_23-2149876030.avif');
 
@@ -8,8 +8,8 @@ body{
 h1{
     font-style: italic;
     color: rgb(60, 41, 168);
-    margin: 40px;
-    font-size: 100px;
+    margin: 20px;
+    font-size: 80px;
 }
 input{
     padding: 10px;
@@ -26,18 +26,18 @@ button{
 }
 
 h2{
-    color: white;
+    color: rgb(12, 12, 12);
 }
 p{
-    color: white;
+    color: rgb(243, 238, 238);
 }
 
 
 .film{
     display: flex;
-    justify-content: center;
-    height: 200px;
+    
+
 }
 .main{
-   
+   margin-left: 350px;
 }
